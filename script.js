@@ -22,7 +22,6 @@ function voltar() {
   }
 }
 
-// Buscar as fotos da API
 fetch("http://localhost:3000/fotos")
   .then(res => res.json())
   .then(data => {
