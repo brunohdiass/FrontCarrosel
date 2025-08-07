@@ -1,0 +1,59 @@
+body {
+   
+    background-color: #b3b3b3;
+    text-align: center;
+    padding: 70px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    color: #000000;
+    letter-spacing: 1px;
+  }
+  
+  .carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 700px;
+    margin:  auto ;
+    padding: 0 ;
+  }
+  
+ 
+  
+  .carrossel img {
+    max-width: 600px;
+    border-radius: 12px;
+  }
+  
+  .carrossel p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  button.btn-anterior,
+  button.btn-proxima {
+    padding: 40px;
+    font-size: 22px;
+    background-color: #000000;
+    color: white;
+    border-radius: 25%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+    
+  }
+  
+
+  
